@@ -13,3 +13,5 @@ elif opc == 4:
     parcelas = int(input('digite o numero de parcelas: '))
     opc4 = prdt / parcelas
     print('o produto parcelado em {:.2f}, fica {:.2f}, sem juros'.format(parcelas, opc4))
+    else:
+    print('numero incorreto')
